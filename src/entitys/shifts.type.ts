@@ -12,6 +12,7 @@ export class ShiftType {
 
     @Column()
     hourlyRate: number;
+    //test
 
     @ManyToOne(() => MainUsers, mainUsers => mainUsers.shiftTypes)
     mainUser: MainUsers;
